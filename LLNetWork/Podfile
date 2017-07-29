@@ -1,0 +1,11 @@
+platform:ios,'8.2'
+target "LLNetWork" do
+pod 'BlocksKit'
+pod 'YYModel'
+pod 'AFNetworking'
+pod 'SDWebImage'
+pod 'MBProgressHUD', '~> 1.0.0'
+pod 'JSONModel', '~> 1.2.0'
+pod 'YYCache'
+end
+

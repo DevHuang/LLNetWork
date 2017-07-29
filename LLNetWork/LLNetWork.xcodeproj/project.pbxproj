@@ -13,9 +13,15 @@
 		3B05BF931F29E61D00B391B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B05BF911F29E61D00B391B5 /* Main.storyboard */; };
 		3B05BF951F29E61D00B391B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B05BF941F29E61D00B391B5 /* Assets.xcassets */; };
 		3B05BF981F29E61D00B391B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B05BF961F29E61D00B391B5 /* LaunchScreen.storyboard */; };
+		3B05BFA11F29EB3400B391B5 /* UITextView+LLPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B05BFA01F29EB3400B391B5 /* UITextView+LLPlaceHolder.m */; };
+		3B7181DD1F2C326200C4F935 /* HttpRequestWithCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7181DC1F2C326100C4F935 /* HttpRequestWithCache.m */; };
+		3B7181E01F2C340D00C4F935 /* ApiMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7181DF1F2C340D00C4F935 /* ApiMethod.m */; };
+		3B7181E81F2C65F200C4F935 /* MBProgressHUD+YC_HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7181E71F2C65F200C4F935 /* MBProgressHUD+YC_HUD.m */; };
+		EC08F8028DBEA8C53E851D01 /* libPods-LLNetWork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F00AC8BD189C5F1C96DE9A2A /* libPods-LLNetWork.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A8E8A364E5AEC6C524DAB9A /* Pods-LLNetWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLNetWork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LLNetWork/Pods-LLNetWork.debug.xcconfig"; sourceTree = "<group>"; };
 		3B05BF851F29E61C00B391B5 /* LLNetWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLNetWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B05BF891F29E61C00B391B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3B05BF8B1F29E61C00B391B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +32,18 @@
 		3B05BF941F29E61D00B391B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B05BF971F29E61D00B391B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B05BF991F29E61D00B391B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B05BF9F1F29EB3400B391B5 /* UITextView+LLPlaceHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+LLPlaceHolder.h"; sourceTree = "<group>"; };
+		3B05BFA01F29EB3400B391B5 /* UITextView+LLPlaceHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+LLPlaceHolder.m"; sourceTree = "<group>"; };
+		3B7181DA1F2C320200C4F935 /* HttpHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HttpHeader.h; sourceTree = "<group>"; };
+		3B7181DB1F2C326100C4F935 /* HttpRequestWithCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpRequestWithCache.h; sourceTree = "<group>"; };
+		3B7181DC1F2C326100C4F935 /* HttpRequestWithCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpRequestWithCache.m; sourceTree = "<group>"; };
+		3B7181DE1F2C340D00C4F935 /* ApiMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiMethod.h; sourceTree = "<group>"; };
+		3B7181DF1F2C340D00C4F935 /* ApiMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiMethod.m; sourceTree = "<group>"; };
+		3B7181E21F2C64AD00C4F935 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		3B7181E61F2C65F200C4F935 /* MBProgressHUD+YC_HUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+YC_HUD.h"; sourceTree = "<group>"; };
+		3B7181E71F2C65F200C4F935 /* MBProgressHUD+YC_HUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+YC_HUD.m"; sourceTree = "<group>"; };
+		5D358CDD955FFF7A577D7F76 /* Pods-LLNetWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLNetWork.release.xcconfig"; path = "Pods/Target Support Files/Pods-LLNetWork/Pods-LLNetWork.release.xcconfig"; sourceTree = "<group>"; };
+		F00AC8BD189C5F1C96DE9A2A /* libPods-LLNetWork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LLNetWork.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +51,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC08F8028DBEA8C53E851D01 /* libPods-LLNetWork.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2179947CD5FAB630339233FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A8E8A364E5AEC6C524DAB9A /* Pods-LLNetWork.debug.xcconfig */,
+				5D358CDD955FFF7A577D7F76 /* Pods-LLNetWork.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		3B05BF7C1F29E61C00B391B5 = {
 			isa = PBXGroup;
 			children = (
 				3B05BF871F29E61C00B391B5 /* LLNetWork */,
 				3B05BF861F29E61C00B391B5 /* Products */,
+				2179947CD5FAB630339233FC /* Pods */,
+				FAB50FFB4DABF84F8D92DAC7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +88,8 @@
 		3B05BF871F29E61C00B391B5 /* LLNetWork */ = {
 			isa = PBXGroup;
 			children = (
+				3B7181E31F2C65A700C4F935 /* Expand */,
+				3B7181D91F2C30E400C4F935 /* NetWork */,
 				3B05BF8B1F29E61C00B391B5 /* AppDelegate.h */,
 				3B05BF8C1F29E61D00B391B5 /* AppDelegate.m */,
 				3B05BF8E1F29E61D00B391B5 /* ViewController.h */,
@@ -67,6 +99,9 @@
 				3B05BF961F29E61D00B391B5 /* LaunchScreen.storyboard */,
 				3B05BF991F29E61D00B391B5 /* Info.plist */,
 				3B05BF881F29E61C00B391B5 /* Supporting Files */,
+				3B05BF9F1F29EB3400B391B5 /* UITextView+LLPlaceHolder.h */,
+				3B05BFA01F29EB3400B391B5 /* UITextView+LLPlaceHolder.m */,
+				3B7181E21F2C64AD00C4F935 /* PrefixHeader.pch */,
 			);
 			path = LLNetWork;
 			sourceTree = "<group>";
@@ -79,6 +114,51 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		3B7181D91F2C30E400C4F935 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				3B7181DA1F2C320200C4F935 /* HttpHeader.h */,
+				3B7181DB1F2C326100C4F935 /* HttpRequestWithCache.h */,
+				3B7181DC1F2C326100C4F935 /* HttpRequestWithCache.m */,
+				3B7181DE1F2C340D00C4F935 /* ApiMethod.h */,
+				3B7181DF1F2C340D00C4F935 /* ApiMethod.m */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		3B7181E31F2C65A700C4F935 /* Expand */ = {
+			isa = PBXGroup;
+			children = (
+				3B7181E41F2C65E400C4F935 /* Category */,
+			);
+			path = Expand;
+			sourceTree = "<group>";
+		};
+		3B7181E41F2C65E400C4F935 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				3B7181E51F2C65E400C4F935 /* MBProgressHUD */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		3B7181E51F2C65E400C4F935 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				3B7181E61F2C65F200C4F935 /* MBProgressHUD+YC_HUD.h */,
+				3B7181E71F2C65F200C4F935 /* MBProgressHUD+YC_HUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		FAB50FFB4DABF84F8D92DAC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F00AC8BD189C5F1C96DE9A2A /* libPods-LLNetWork.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +166,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B05BF9C1F29E61D00B391B5 /* Build configuration list for PBXNativeTarget "LLNetWork" */;
 			buildPhases = (
+				A8965852EA99A9F84DD17A16 /* [CP] Check Pods Manifest.lock */,
 				3B05BF811F29E61C00B391B5 /* Sources */,
 				3B05BF821F29E61C00B391B5 /* Frameworks */,
 				3B05BF831F29E61C00B391B5 /* Resources */,
+				892D1A45F91860A17AA4C9D0 /* [CP] Embed Pods Frameworks */,
+				722089C541EF1762649AC93C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -145,14 +228,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		722089C541EF1762649AC93C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LLNetWork/Pods-LLNetWork-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		892D1A45F91860A17AA4C9D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LLNetWork/Pods-LLNetWork-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8965852EA99A9F84DD17A16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3B05BF811F29E61C00B391B5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3B05BF901F29E61D00B391B5 /* ViewController.m in Sources */,
+				3B05BFA11F29EB3400B391B5 /* UITextView+LLPlaceHolder.m in Sources */,
+				3B7181E81F2C65F200C4F935 /* MBProgressHUD+YC_HUD.m in Sources */,
+				3B7181DD1F2C326200C4F935 /* HttpRequestWithCache.m in Sources */,
 				3B05BF8D1F29E61D00B391B5 /* AppDelegate.m in Sources */,
 				3B05BF8A1F29E61C00B391B5 /* main.m in Sources */,
+				3B7181E01F2C340D00C4F935 /* ApiMethod.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +405,12 @@
 		};
 		3B05BF9D1F29E61D00B391B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A8E8A364E5AEC6C524DAB9A /* Pods-LLNetWork.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = LLNetWork/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.devHuang.LLNetWork;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -281,9 +419,12 @@
 		};
 		3B05BF9E1F29E61D00B391B5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D358CDD955FFF7A577D7F76 /* Pods-LLNetWork.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = LLNetWork/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.devHuang.LLNetWork;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -309,6 +450,7 @@
 				3B05BF9E1F29E61D00B391B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
